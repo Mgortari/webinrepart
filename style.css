@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;600&family=Roboto+Mono:wght@700&display=swap');
+
+/* ------- RESOLUCION DE 300PX A 600PX -------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+}
+
+body{
+    background-color: rgb(228, 233, 238);
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(37, 36, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 27px;
+}
+
+.loggo{
+    text-shadow: 2px 2px 7px rgb(207, 180, 180);
+    color: rgb(206, 54, 54);
+}
+
+header i{
+    text-shadow: 2px 2px 9px rgb(207, 180, 180);
+    color: rgb(206, 54, 54);
+    cursor: pointer;
+ 
+}
+
+.nav2{
+    display: none;
+}
+
+
+
+/* ---------- PAG CONTACT --------------*/
+/* ------- RESOLUCION DE 300PX A 600PX -------*/
+
+.contac{
+   height: 390px;
+   width: 100%;
+   font-size: 27px;
+   background-image: url(./Multimedia/wave-haikei.png),
+   url(./Multimedia/wave-haikei1.png);
+   background-position: center;
+   background-size: cover;
+   background-color: firebrick;
+}
+
+.footy{
+   height: 390px;
+   width: 390px;
+   text-align: left;
+}
+
+.texto9{
+   text-align: left;
+   font-size: 32px;
+   font-weight: lighter;
+   padding: 15px;
+   color: #fff;    
+}
+
+.texto10{
+   text-align: left;
+   font-size: 22px;
+   font-weight: lighter;
+   color: #fff;
+   margin: 15px;
+   padding: 15px; 
+}
+
+.social1{
+   display: flex;
+   margin-left: 30px;
+   letter-spacing: 20px;
+}
+
+.social1 i{
+   color: #fff;
+}
+
+.copy1{
+   font-size: 17px;
+   text-align: center;
+   margin: 15px;
+   padding: 3px;
+   font-weight: lighter;
+   color: rgb(186, 187, 189);
+}
+
+.up{
+   padding: 17px;
+   background-color: #696c6d;
+   font-size: 27px;
+   border-radius: 100%;
+   cursor: pointer;
+   position: fixed;
+   bottom: 35px;
+   right: 10px;
+   box-shadow: 2px 2px 9px #424444;
+   border-bottom: solid #181a1a;
+}
+
+.up i{
+   color: #fff;
+}
+@media only screen and (min-width:500px) and (max-width:750px){
+   .loader{
+       display: none;
+   }
+   .loader1{
+       display: none;
+   }
+   .container4{
+    width: ;
+}
+
+.contac{
+   height: 390px;
+   width: 100%;
+   font-size: 27px;
+   background-color: firebrick;
+}
+
+.footy{
+   height: 390px;
+   width: 390px;
+   text-align: left;
+}
+
+.texto9{
+   text-align: left;
+   font-size: 32px;
+   font-weight: lighter;
+   padding: 15px;
+   color: #fff;    
+}
+
+.texto10{
+   text-align: left;
+   font-size: 22px;
+   font-weight: lighter;
+   color: #fff;
+   margin: 15px;
+   padding: 15px; 
+}
+
+.social1{
+   display: flex;
+   margin-left: 30px;
+   letter-spacing: 20px;
+}
+
+.social1 i{
+   color: #fff;
+}
+
+.copy1{
+   font-size: 17px;
+   text-align: center;
+   margin: 15px;
+   padding: 3px;
+   font-weight: lighter;
+   color: rgb(186, 187, 189);
+}
+
+.up{
+   padding: 17px;
+   background-color: #696c6d;
+   font-size: 27px;
+   border-radius: 100%;
+   cursor: pointer;
+   position: fixed;
+   bottom: 35px;
+   right: 10px;
+   box-shadow: 2px 2px 9px #424444;
+   border-bottom: solid #181a1a;
+}
+
+.up i{
+   color: #fff;
+}
+}
+@media only screen and (min-width:751px) and (max-width:1500px)  
+{
+   .nav1 i{
+       display: none;
+    }
+   
+   .nav2{
+       display: inline-block;
+       justify-content: space-between;
+       font-size: 23px;
+   }
+   
+   ul a{
+       text-decoration: none;
+       justify-content: space-between;
+       padding: 10px;
+       text-shadow: 2px 2px 5px rgb(207, 180, 180);
+       color: rgb(206, 54, 54);
+   }
+   
+   ul a:hover{
+       color: aliceblue;
+   }
+   .container4{
+       width: ;
+       height: 750px;
+       background-image: url(./Multimedia/maps.jpg);
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       opacity: 0.9;
+       position: relative;
+   }
+   .footy{
+       display: grid;
+       width: 100%;
+       height: 80px;
+       grid-template-columns: repeat(4, 1fr);
+       grid-template-rows: 95px 95px 95px;
+    }
+    .texto9{
+       grid-column: 1/2;
+       grid-row: 2/3;
+    }
+   
+    .texto10{
+       grid-column: 2/4;
+       grid-row: 2/4;
+    }
+   
+    .social1{
+       grid-column: 4/5;
+       grid-row: 5/5;
+       font-size: 19px;
+    }
+   
+    .copy1{
+       grid-column: 2/4;
+       grid-row: 5/5;
+    }   
+   }
